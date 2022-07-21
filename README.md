@@ -15,3 +15,25 @@
 ![demo](demo.png)
 
 附註：左下角是 `data` 的即時資料，這樣會更好理解什麼是「雙向綁定」
+
+## 運行方式
+
+1. 把專案 clone 下來後安裝依賴項目：
+
+```bash
+npm install
+```
+
+2. 啟動開發環境：
+
+```bash
+npm run serve
+```
+
+## 打包
+
+```bash
+npm run build
+```
+
+之後再透過 live-sever 的方式打開 `/dist/index.html` 即可
