@@ -1,19 +1,17 @@
-# web-form
+# Vue－表單練習
 
-## Project setup
-```
-npm install
-```
+來自 [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) 的其中一項專案。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+這份專案是用來練習 Vue 的基本表單操作，包含：
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- `v-model` 的使用（Input、Select、Checkbox）
+- `modifier` 的使用（prevent、ctrl）
+- 表單驗證（密碼長度）
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+總之只是份簡單的練習，不過表單確實是常會遇到的需求，所以才留個紀錄。
+
+網站連結：https://jubeatt.github.io/Vue-Web-Form
+
+![demo](demo.png)
+
+附註：左下角是 `data` 的即時資料，這樣會更好理解什麼是「雙向綁定」
